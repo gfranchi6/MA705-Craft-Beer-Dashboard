@@ -1,1 +1,1 @@
-web: gunicorn beer_2:server
+web: gunicorn Beer_Project:server
