@@ -1,2 +1,2 @@
 # MA705-Craft-Beer-Dashboard
-Repository for MA705 final dashboard project
+Repository for MA705 final dashboard project: This repository contains all necessary files for launching my craft beer dashboard. The dashboard will show nearly 38,000 craft beers from around the globe along with their review score, aroma, appearance, palate and taste scores, their ABV, brewery and style. Users of the dashboard will be able to find craft beers that may interest them by filtering through a dropdown of styles and through a ABV range slider.
