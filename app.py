@@ -15,7 +15,8 @@ import numpy as np
 import dash_bootstrap_components as dbc
 
 
-df = pd.read_csv('https://raw.githubusercontent.com/gfranchi6/MA705-Craft-Beer-Dashboard/main/beer_reviews.csv?token=AW5PDJTUV4FGTOLSSZJNBOTBXT44E')
+url = 'https://raw.githubusercontent.com/gfranchi6/MA705-Craft-Beer-Dashboard/main/beer_reviews.csv?token=AW5PDJTUV4FGTOLSSZJNBOTBXT44E'
+df = pd.read_csv(url,index_col=0)
 
 df.replace('?', np.NaN)
 
