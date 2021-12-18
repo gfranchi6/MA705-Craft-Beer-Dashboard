@@ -14,8 +14,7 @@ import pandas as pd
 import numpy as np
 import dash_bootstrap_components as dbc
 
-
-url = 'https://raw.githubusercontent.com/gfranchi6/MA705-Craft-Beer-Dashboard/main/beer_reviews.csv?token=AW5PDJTUV4FGTOLSSZJNBOTBXT44E'
+url = 'https://raw.githubusercontent.com/gfranchi6/MA705-Craft-Beer-Dashboard/main/beer_reviews.csv?token=AW5PDJQBPMIX2RLLCDN62WTBXZTU2'
 df = pd.read_csv(url,index_col=0)
 
 df.replace('?', np.NaN)
