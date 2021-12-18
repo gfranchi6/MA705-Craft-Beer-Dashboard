@@ -18,7 +18,10 @@ import plotly.express as px
 import dash_bootstrap_components as dbc
 import pickle
 
-df = pd.read_csv('https://raw.githubusercontent.com/gfranchi6/MA705-Craft-Beer-Dashboard/main/beer_reviews.csv?token=AW5PDJTUV4FGTOLSSZJNBOTBXT44E')
+
+url = 'https://githubusercontent.com/gfranchi6/MA705-Craft-Beer-Dashboard/main/beer_reviews.csv?token=AW5PDJTUV4FGTOLSSZJNBOTBXT44E?raw=true'
+
+df = pd.read_csv(url)
 
 df.replace('?', np.NaN)
 
