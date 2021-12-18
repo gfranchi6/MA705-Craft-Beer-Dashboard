@@ -86,4 +86,4 @@ def update_table(beers, abvs):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
